@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="logo">LOGO</div>
+    <button class="toggle-btn" id="toggleBtn"><i class="fas fa-bars"></i></button>
+    <ul>
+      <li data-page="home"><i class="fas fa-home"></i><span>Home</span></li>
+      <li data-page="profile"><i class="fas fa-user"></i><span>Profile</span></li>
+      <li data-page="settings"><i class="fas fa-cog"></i><span>Settings</span></li>
+      <li data-page="about"><i class="fas fa-info-circle"></i><span>About</span></li>
+      <li data-page="logout"><i class="fas fa-sign-out-alt"></i><span>Logout</span></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content" id="content">
+    <h1>Welcome to the Page</h1>
+    <p>Click the sidebar links to load content.</p>
+  </div>
+
+  <!-- JavaScript -->
+   <script src="script.js"></script>
+  </body>
+</html>
